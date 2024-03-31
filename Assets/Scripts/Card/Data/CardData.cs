@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Cards
+namespace Card.Data
 {
     [System.Serializable]
     public class CardData

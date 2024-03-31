@@ -11,8 +11,13 @@ namespace Utils
 
         [SerializeField] private bool _isAlwaysUpdate = true;
 
+        public Vector2Int GridSize
+        {
+            get => _gridSize;
+            set => _gridSize = value;
+        }
+        
         private const float CENTER_OFFSET = 2f;
-        private const int CHILD_SUBTRAHENDTION = 1;
         
         private enum Alignment
         {
@@ -33,13 +38,14 @@ namespace Utils
 
         public void GenerateGrid()
         {
-            Vector2 startPosition = GetPositionByAligment();
+            Vector2 startPosition = GetPositionByAlignment();
 
             for (int i = 0; i < _gridSize.x; i++)
             {
                 for (int j = 0; j < _gridSize.y; j++)
                 {
                     int index = i * _gridSize.y + j;
+                    
                     if (index < transform.childCount)
                     {
                         transform.GetChild(index).localPosition = startPosition + new Vector2(j * _cellSize.x, i * -_cellSize.y);
@@ -48,7 +54,7 @@ namespace Utils
             }
         }
 
-        private Vector2 GetPositionByAligment()
+        private Vector2 GetPositionByAlignment()
         {
             float gridWidth = (_gridSize.y - 1) * _cellSize.x;
             float gridHeight = (_gridSize.x - 1) * _cellSize.y;
