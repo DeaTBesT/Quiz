@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82fd5790558b4cfeb9f338b3984b8e72, type: 3}
+  m_Name: LevelsBundleData
+  m_EditorClassIdentifier: 
+  _levelsData:
+  - _taskTitle: Find F
+    _rightAnswerId: f
+    _gridSize: {x: 1, y: 3}
+    _cards:
+    - _id: a
+      _sprite: {fileID: 4963718625464178563, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+    - _id: b
+      _sprite: {fileID: 7783457984840754399, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+    - _id: f
+      _sprite: {fileID: -6426668015567183463, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+  - _taskTitle: Find C
+    _rightAnswerId: c
+    _gridSize: {x: 2, y: 3}
+    _cards:
+    - _id: a
+      _sprite: {fileID: 4963718625464178563, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+    - _id: b
+      _sprite: {fileID: 7783457984840754399, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+    - _id: c
+      _sprite: {fileID: 3234300448368640894, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+    - _id: d
+      _sprite: {fileID: 7911670913450602933, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+    - _id: e
+      _sprite: {fileID: 4652326554734856401, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+    - _id: f
+      _sprite: {fileID: -6426668015567183463, guid: eab5415ce7594f442a6a5b6cf241ccb6, type: 3}
+  - _taskTitle: Find 8
+    _rightAnswerId: 8
+    _gridSize: {x: 3, y: 3}
+    _cards:
+    - _id: 1
+      _sprite: {fileID: 1422184923334757970, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 2
+      _sprite: {fileID: 1808195818850983521, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 3
+      _sprite: {fileID: -7900951133411543555, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 5
+      _sprite: {fileID: -7398325283844340781, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 7
+      _sprite: {fileID: -675344402919758444, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 8
+      _sprite: {fileID: 3547489320769246608, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 4
+      _sprite: {fileID: 2267071060405275165, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 6
+      _sprite: {fileID: -7015292045520539579, guid: 20956ab88d30dd54d96be2c566902b58, type: 3}
+    - _id: 10
+      _sprite: {fileID: 4142021021139464533, guid: 2a96ddec2ee446c47978eaa52d95f48e, type: 3}

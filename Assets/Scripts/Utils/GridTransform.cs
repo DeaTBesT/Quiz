@@ -18,6 +18,7 @@ namespace Utils
         }
         
         private const float CENTER_OFFSET = 2f;
+        private const int CHILD_SUBTRACTION = 1;
         
         private enum Alignment
         {
@@ -56,8 +57,8 @@ namespace Utils
 
         private Vector2 GetPositionByAlignment()
         {
-            float gridWidth = (_gridSize.y - 1) * _cellSize.x;
-            float gridHeight = (_gridSize.x - 1) * _cellSize.y;
+            float gridWidth = (_gridSize.y - CHILD_SUBTRACTION) * _cellSize.x;
+            float gridHeight = (_gridSize.x - CHILD_SUBTRACTION) * _cellSize.y;
             
             switch (_alignment)
             {

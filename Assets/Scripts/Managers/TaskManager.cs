@@ -1,10 +1,9 @@
 ﻿using System;
 using Level.Data;
-using UnityEngine;
 
 namespace Managers
 {
-    public class TaskManager : MonoBehaviour
+    public class TaskManager
     {
         public Action OnRightAnswer { get; set; }
         
